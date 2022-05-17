@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <title>
+        SCROLL
+     </title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+     </head>
+     <body>
+      <div class="outer-wrapper">
+          <div class="wrapper">
+           <div class="slide one"><font face="Arial" size="40">Desde $7,000mx</font><iframe src="C:\DAvid\Clip path\ClipiImage.html" width="1300" height="1000"></iframe></div>
+           <div class="slide dos"></div>
+           <div class="slide tres"></div>
+           <div class="slide cuatro"></div>
+          </div>
+      </div>        
+     </body>
+ </html>
+
+
+style.css
+{
+margin: 0;
+padding: 0;
+}
+.slide{
+width: 100vw;
+height: 100vw;
+}
+
+.wrapper{
+display: flex;
+flex-direction:row;
+width: 400vw;
+transform: rotate(90deg)translateY(-100vh);
+transform-origin: top left;
+}
+
+.one{
+background: #fff;
+}
+.dos{
+background: #a3f3d3;
+}
+.tres{
+background: #0bbaa0;
+}
+.cuatro{
+background: #00dfdf;
+}
+
+.outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg)translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+
+}
+
+.font{
+   
+}
